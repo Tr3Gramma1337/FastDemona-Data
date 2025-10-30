@@ -1,2 +1,1 @@
-# FastDemona-Data
-Авто Обновление
+# Update
