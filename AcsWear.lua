@@ -1,6 +1,6 @@
 script_name("AcsWear")
 script_author("Luffich (Original Chapo)")
-script_version(1.8)
+script_version(1.7)
 
 if not package.loaded["imgui"] then
     local status, err = pcall(require, "imgui")
@@ -3129,6 +3129,7 @@ function imgui.TextQuestion(text)
     end
 
 end
+
 
 
 
