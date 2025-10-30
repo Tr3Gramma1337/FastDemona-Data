@@ -1,8 +1,9 @@
 {
-    "latest": "1.6",
+    "latest": "1.6.1",
     "updateurl": "https://raw.githubusercontent.com/FastDemona/FastDemona-Data/main/AcsWear.lua",
     "telemetry": false
 }
+
 
 
 
