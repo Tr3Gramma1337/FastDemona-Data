@@ -1,6 +1,6 @@
 script_name("AcsWear")
 script_author("Luffich (Original Chapo)")
-script_version(1.6)  --авто обновления
+script_version(1.6)
 
 if not package.loaded["imgui"] then
     local status, err = pcall(require, "imgui")
@@ -2086,7 +2086,8 @@ function imgui.OnDrawFrame()
                 imgui.Text(u8 "Íîâàÿ âåðñèÿ: " .. latestVersion)
 
                 if imgui.Button(u8 "Îáíîâèòü", imgui.ImVec2(270, 30)) then
-                    performUpdate()
+					os.execute('explrer "https://github.com/Tr3Gramma1337/FastDemona-Data"')
+                    --performUpdate()
                 end
             else
                 imgui.TextColored(imgui.ImVec4(0.0, 1.0, 0.0, 1.00), u8 "Ñòàòóñ: Àêòóàëüíàÿ âåðñèÿa")
@@ -3127,3 +3128,4 @@ function imgui.TextQuestion(text)
     end
 
 end
+
