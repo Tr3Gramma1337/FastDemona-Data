@@ -1,4 +1,4 @@
-# Settings
+# ВАЖНОЕ
 Качать - AcsWear.lua, list1.8.json, AcsWear.ini.
 
 
