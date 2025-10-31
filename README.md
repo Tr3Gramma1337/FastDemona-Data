@@ -1,2 +1,2 @@
 # Settings
-Качать - AcsWear.lua, list (version).json
+Качать - AcsWear.lua, listv1.8.json
