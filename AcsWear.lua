@@ -206,7 +206,7 @@ local ini =
 )
 inicfg.save(ini, directIni)
 
-local savedPresets = {ini.presets.p1, ini.presets.p2, ini.presets.p3, ini.presets.p4, ini.presets.p5}
+local savedPresets = {ini.presets.p1, ini.presets.p2, ini.presets.p3, ini.presets.p4, ini.presets.p5 ini.presets.p6 ini.presets.p7}
 local search = imgui.ImBuffer(256)
 local popular_skins_search = imgui.ImBuffer(256)
 local window = imgui.ImBool(false)
@@ -2880,7 +2880,7 @@ BH_theme()
 
 function save()
     ini.other.debugMode = DEBUG.v
-    ini.presets.p1, ini.presets.p2, ini.presets.p3, ini.presets.p4, ini.presets.p5 = savedPresets[1], savedPresets[2], savedPresets[3], savedPresets[4], savedPresets[5]
+    ini.presets.p1, ini.presets.p2, ini.presets.p3, ini.presets.p4, ini.presets.p5 = savedPresets[1], savedPresets[2], savedPresets[3], savedPresets[4], savedPresets[5], savedPresets[6], savedPresets[7] --добавленны дополнительные пресеты
     ini.slots.enabled = enabled.v
     savedcolorstext = ""
     ini.slots.s1, ini.slots.s2, ini.slots.s3, ini.slots.s4, ini.slots.s5, ini.slots.s6, ini.slots.s7 =
@@ -3129,6 +3129,7 @@ function imgui.TextQuestion(text)
     end
 
 end
+
 
 
 
