@@ -1,5 +1,5 @@
 # ВАЖНОЕ
-Качать - AcsWear.lua, list1.8.json, AcsWear.ini.
+Качать - AcsWear.lua, list1.9.json, AcsWear.ini.
 
 
 Update's:
