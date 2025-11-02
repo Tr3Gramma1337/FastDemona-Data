@@ -1,5 +1,5 @@
 # ВАЖНОЕ
-Качать - AcsWear.lua, list1.9.json, AcsWear.ini.
+Качать - AcsWear.lua, list2.1.json, AcsWear.ini.
 
 
 Update's:
@@ -12,3 +12,6 @@ Version 1.8 - Добавленны дополнительные пресеты (
 
 
 Version 1.9 - Add acs: "Золотой Ролик".
+
+
+Version 2.1 Global Update
