@@ -15,3 +15,5 @@ Version 1.9 - Add acs: "Золотой Ролик".
 
 
 Version 2.1 Global Update
+
+Version 2.2 Update
